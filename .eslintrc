@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  # find all rules at http://eslint.org/docs/rules
+  rules:
+    {
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      # enable logging to console
+      "no-console": ["error", { allow: ["warn", "error","log"] }] ,
+      # prefer double quotes: change "single" to "double"
+      "quotes": ["error", "single"],
+      # prefer semicolons? remove the next line
+      "semi": ["error","never"],
+    }
+}
